@@ -1,0 +1,194 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <title>Property | Rumaanah</title>
+
+    <style>
+        body{
+            margin:0;
+	    font-family:Arial,sans-serif;
+            color:#111;
+            background:#f7f7f7
+        }
+
+        .wrap{
+            max-width:980px;
+            margin:auto;
+            padding:55px 24px
+        }
+
+        .hero{
+            background:#111;
+            color:#fff;
+            padding:10px 0
+        }
+
+        .menu{
+            position:relative;
+            display:inline-block
+        }
+
+        .menu-button{
+            background:none;
+            border:0;
+            color:#fff;
+            font-size:24px;
+            cursor:pointer;
+            padding:5px 10px
+        }
+
+        .menu-content{
+            display:none;
+            position:absolute;
+            top:100%;
+            left:0;
+            background:#fff;
+            min-width:210px;
+            box-shadow:0 4px 12px rgba(0,0,0,.2);
+            z-index:10
+        }
+
+        .menu-content a{
+            display:block;
+            color:#111;
+            text-decoration:none;
+            padding:14px 18px;
+            font-size:14px
+        }
+
+        .menu-content a:hover{
+            background:#f0f0f0
+        }
+
+        .menu:hover .menu-content{
+            display:block
+        }
+
+        .eyebrow{
+            letter-spacing:2px;
+            text-transform:uppercase;
+            font-size:12px
+        }
+
+        .card{
+            background:#fff;
+            padding:28px;
+            margin:18px 0;
+            border:1px solid #ddd
+        }
+
+        .options{
+            display:grid;
+            grid-template-columns:repeat(2,1fr);
+            gap:15px;
+            margin-top:25px
+        }
+
+        .option{
+            display:block;
+            background:#111;
+            color:#fff;
+            padding:22px;
+            text-decoration:none;
+            font-size:17px;
+            box-sizing:border-box
+        }
+
+        .option:hover{
+            background:#333
+        }
+
+	.brand-name {
+	    color: #fff;
+	    font-size: 18px;
+ 	    font-weight: bold;
+	    vertical-align: middle;
+	    margin-left: 4px;
+	}
+
+        @media(max-width:600px){
+            .options{
+                 grid-template-columns:1fr
+            }
+        }
+</style>
+</head>
+
+<body>
+
+<div class="hero">
+    <div class="wrap">
+
+	<div class="menu">
+
+	    <button
+	        class="menu-button"
+	        aria-label="Open menu"
+	    >
+	        &#9776;
+	    </button>
+
+	    <span class="brand-name">Rumaanah Khan</span>
+
+	    <div class="menu-content">
+
+                <a href="Buyer.html">Buying</a>
+                <a href="Seller.html">Selling</a>
+                <a href="Property-Development.html">Property Development</a>
+                <a href="Property-Investments.html">Property Investment</a>
+            </div>
+        </div>
+
+        <h1>Property, approached with clarity.</h1>
+
+    </div>
+</div>
+
+<div class="wrap">
+
+    <div class="card">
+
+        <p>Whether you're buying, selling, developing or investing, let's start with understanding what you need.</p>
+
+        <p>Choose an area below to explore how I can help.</p>
+
+        <div class="options">
+
+            <a class="option" href="Buyer.html">
+                Buying Property
+            </a>
+
+            <a class="option" href="Seller.html">
+                Selling Property
+            </a>
+
+            <a class="option" href="Property-Development.html">
+                Property Development
+            </a>
+
+            <a class="option" href="Property-Investments.html">
+                Property Investment
+            </a>
+
+        </div>
+
+    </div>
+
+    <div class="card">
+
+        <h3>Let's start with what matters to you.</h3>
+
+        <p>
+            The aim is to understand your needs first — not pressure you into a decision.
+        </p>
+
+    </div>
+
+</div>
+
+</body>
+</html>
